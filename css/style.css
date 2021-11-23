@@ -1,0 +1,22 @@
+body {
+    background-image: url("../images/to-do.jpg");
+    background-size: cover;
+}
+
+header {
+    border: 1px solid white;
+    position: absolute;
+    left: 550px;
+    top: 400px;
+    width: 400px;
+    height: 280px;
+}
+
+table {
+    border: 1px solid white;
+    position: absolute;
+    left: 400px;
+    top: 360px;
+    width: 500px;
+    height: 290px;
+}
