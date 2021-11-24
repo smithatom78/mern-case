@@ -57,11 +57,11 @@ function myFunction() {
         // Checkbox is not checked..
         //   alert("checked1");
         //   alert(count);
-
-        count += 1;
         if (count == 5) {
             alert("Congrats.  5 Tasks have been Successfully Completed ");
         }
+        count += 1;
+
         //alert(itemchecked);
     }
 
