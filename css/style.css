@@ -14,9 +14,28 @@ header {
 
 table {
     border: 1px solid white;
+    background-color: beige;
     position: absolute;
     left: 400px;
-    top: 360px;
-    width: 500px;
+    top: 320px;
+    width: 650px;
     height: 290px;
+}
+
+.tab {
+    border: 1px solid white;
+    background-color: beige;
+    position: absolute;
+    left: 470px;
+    top: 350px;
+    width: 600px;
+    height: 290px;
+    padding: 25px;
+    /* border: 2px solid red;
+        padding: 25px;
+        background-color: green;
+        height: 200;
+        margin-right: 3%;
+        margin-top: 3%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
 }

@@ -16,30 +16,29 @@
 </head>
 
 
-<body>
+<body onload="loadDoc()">
     <nav class="navbar navbar-light bg-light justify-content-between">
         <a class="navbar-brand">
             <img src="images/logo.png" width="230" height="65" alt=" "></a>
-        <a class="navbar-brand" href="welcome.html">TO-DO-LIST</a>
-        <a class="navbar-brand" href="#" onclick="window.open('index.html', '_blank')">Log Out</a>
+        <button type="button" class=" btn btn-secondary " onclick="loadDoc()">TO-DO-LIST</button>
+        <!--<a class="navbar-brand" href="welcome.html" onclick="loadDoc()">TO-DO-LIST</a>-->
+        <button type="button" class=" btn btn-secondary " onclick="window.open('index.html', '_blank')">LOG OUT</button>
+        <!--<a class="navbar-brand" href="#" onclick="window.open('index.html', '_blank')">Log Out</a>-->
         <form class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-
         </form>
 
     </nav>
-    <table>
-        <tr>
-            <td>
 
-                <img src="images/constr.jpg " alt=" ">
+    <div id="tab">
 
-            </td>
-        </tr>
-    </table>
+    </div>
+
+
+
 </body>
 
 
-</html>
+<script src="js/api.js "></script>
 
 </html>
