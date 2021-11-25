@@ -8,7 +8,7 @@ function loadDoc() {
             console.log(myObj);
             var todolist = myObj.todo;
             var itemchecked = 0;
-            text = "<form name='myForm1'><center><br><br><table border='1' id='tab' cellpadding='10' height='450' width='750' align='center'><tr><th>SNO</th><th>Userid</th><th>Title of Event</th><th>Status</th></tr>"
+            text = "<form name='myForm1'><center><br><br><table style='width:725px;border: 6px solid rgb(141, 59, 59)' id='tab' cellpadding='10' height='450' align='center'><tr><th>SNO</th><th>Userid</th><th>Title of Event</th><th>Status</th></tr>"
             for (x in todolist) {
                 var st = '';
                 if (todolist[x].completed) {

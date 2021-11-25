@@ -23,12 +23,11 @@ table {
 }
 
 .tab {
-    border: 1px solid white;
+    border: 2px solid rebeccapurple;
     background-color: beige;
     position: absolute;
-    left: 470px;
+    left: 400px;
     top: 350px;
-    width: 600px;
     height: 290px;
     padding: 25px;
     /* border: 2px solid red;
@@ -38,4 +37,10 @@ table {
         margin-right: 3%;
         margin-top: 3%;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+}
+
+.myhead {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    padding: 10px;
 }
